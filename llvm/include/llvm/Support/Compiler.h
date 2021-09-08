@@ -335,7 +335,7 @@
 # define LLVM_FUNCTION_NAME __func__
 #endif
 
-#if defined(HAVE_SANITIZER_MSAN_INTERFACE_H)
+#if 0
 # include <sanitizer/msan_interface.h>
 #else
 # define __msan_allocated_memory(p, size)
